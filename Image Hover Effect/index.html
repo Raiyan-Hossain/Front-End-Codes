@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>image hover effect</title>
+</head>
+<body>
+    <div class="card">
+        <img src="images/image1.jpg" alt="">
+        <div class="content" id="scrollable-1" onmouseleave="resetScroll(1)">
+            <h2>Mountains</h2>
+            <p>Mountains are towering landforms characterized by steep slopes and significant elevation above their surroundings. They often showcase breathtaking natural beauty and play crucial roles in shaping landscapes and influencing weather patterns.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="images/image2.jpg" alt="">
+        <div class="content" id="scrollable-2" onmouseleave="resetScroll(2)">
+            <h2>Volcanos</h2>
+            <p id="scrollable">Volcanoes are natural geologic formations where molten rock, ash, and gases erupt from the Earth's interior, often creating awe-inspiring displays of power and geological diversity. They play a crucial role in shaping landscapes and can have both destructive and constructive impacts on surrounding environments.</p>
+        </div>
+    </div>
+
+    <script src="script.js">
+    </script>
+</body>
+</html>
